@@ -16,6 +16,16 @@
   display: block;
 }
 
+body {
+  padding-bottom: 500px;
+}
+
 .link:hover {
   transform: scale(1.5);
+}
+
+.class {
+  border-bottom: 1px solid red;
+  padding: 2em;
+  margin-bottom: 1em;
 }
