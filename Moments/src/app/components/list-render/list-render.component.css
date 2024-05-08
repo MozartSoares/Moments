@@ -1,0 +1,11 @@
+li {
+  color: pink;
+}
+
+button {
+  background-color: green;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
