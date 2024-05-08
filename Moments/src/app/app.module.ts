@@ -7,9 +7,21 @@ import { FirstComponentComponent } from './components/first-component/first-comp
 import { ParentDataComponent } from './components/parent-data/parent-data.component';
 import { DirectivesComponent } from './components/directives/directives.component';
 import { IfRenderComponent } from './components/if-render/if-render.component';
+import { EventosComponent } from './components/eventos/eventos.component';
+import { EmmiterComponent } from './components/emitter/emmiter/emmiter.component';
+import { ChangeNumberComponent } from './components/emitter/change-number/change-number.component';
 
 @NgModule({
-  declarations: [AppComponent, FirstComponentComponent, ParentDataComponent, DirectivesComponent, IfRenderComponent],
+  declarations: [
+    AppComponent,
+    FirstComponentComponent,
+    ParentDataComponent,
+    DirectivesComponent,
+    IfRenderComponent,
+    EventosComponent,
+    EmmiterComponent,
+    ChangeNumberComponent,
+  ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
